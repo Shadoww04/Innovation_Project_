@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
-model = YOLO('../Yolo-Weights/yolov8n.pt')
+model = YOLO('../Yolo-Weights/yolov8n or 8l.pt')
 
 # Perform inference on the image
-results = model("images/7.jpeg", show=True)
+results = model("image source", show=True)
 
 # Set to keep track of already printed object names
 detected_objects = set()
